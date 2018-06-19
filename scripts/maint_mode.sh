@@ -6,10 +6,12 @@ then
 fi
 if [ "$1" == "1" ]
 then
-  mv -v /var/www/html/hawkitsolutions/public/index.html /var/www/html/hawkitsolutions/index.html.disabled
-  cp -v /var/www/html/hawkitsolutions/coming-soon.html /var/www/html/hawkitsolutions/index.html
+  mv -v /var/www/html/hawkitsolutions/public/index.html /var/www/html/hawkitsolutions/public/index.html.disabled
+  cp -v /var/www/html/hawkitsolutions/public/coming-soon.html /var/www/html/hawkitsolutions/public/index.html
+  echo "Maint mode enabled"
 fi
 if [ "$1" == "2" ]
 then
-  mv -v /var/www/html/hawkitsolutions/index.html.disabled /var/www/html/hawkitsolutions/index.html
+  mv -v /var/www/html/hawkitsolutions/public/index.html.disabled /var/www/html/hawkitsolutions/public/index.html
+  echo "Maint mode disabled"
 fi
