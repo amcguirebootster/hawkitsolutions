@@ -1,0 +1,47 @@
+@mixin transition {
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;  
+}
+@mixin transition3s {
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;  
+}
+@mixin bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@mixin center {
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  transform: translateY(-50%);
+}
+@mixin red-overlay {
+  background-color: $red;
+  mix-blend-mode: multiply;
+  @include center;
+}
+@mixin grayscale($value) {
+  -webkit-filter: #{ "grayscale(" + $value + ")" };
+  -moz-filter: #{ "grayscale(" + $value + ")" };
+  -ms-filter: #{ "grayscale(" + $value + ")" };
+  -o-filter: #{ "grayscale(" + $value + ")" };
+  filter: #{ "grayscale(" + $value + ")" };
+}
+@mixin after {
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+  width: 30px;
+  height: 4px;
+  content: '';
+  background-color: $greylg;
+}
