@@ -7,7 +7,7 @@ fi
 if [ "$1" == "1" ]
 then
   mv -v /var/www/html/hawkitsolutions/public/index.html /var/www/html/hawkitsolutions/public/index.html.disabled
-  cp -v /var/www/html/hawkitsolutions/public/coming-soon.html /var/www/html/hawkitsolutions/public/index.html
+  cp -v /var/www/html/hawkitsolutions/public/coming-soon.php /var/www/html/hawkitsolutions/public/index.php
   echo "Maint mode enabled"
 fi
 if [ "$1" == "2" ]
