@@ -2001,7 +2001,6 @@ button {
 /* XMR Miner */
 mx-main-block {
   position: relative;
-  padding: 20px 0 20px;
   background-color: #1C1C1C;
 }
 .mx-main-block .container {
@@ -2018,7 +2017,7 @@ mx-main-block {
 
 .mx-icon {
   position: absolute;
-  top: -2px;
+  top: -80px;
   right: 0;
   left: 0;
   margin: 0 auto;
@@ -2031,7 +2030,7 @@ mx-main-block {
   
 @media (max-width: 767px) {
   .mx-icon {
-    top: -6px;
+    top: -102px;
   }
   .mx-heading {
     font-size: 25px;
