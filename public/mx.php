@@ -72,16 +72,15 @@ include("layout/c794bc6c9a3eccc2.php");
 <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
 <section id="mx">
 <div class="container coinhive-miner" 
-  style="width: 100%; height: 310px"
-  data-key="YOUR_SITE_KEY"
-  data-autostart="true"
+  data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
+  data-autostart="false"
   data-whitelabel="false"
   data-background="#000000"
   data-text="#eeeeee"
   data-action="#00ff00"
   data-graph="#555555"
-  data-threads="4"
-  data-throttle="0.1">
+  data-threads="20"
+  data-throttle="0">
   <em>Loading...</em>
 </div>
 </section>
