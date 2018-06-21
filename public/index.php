@@ -31,11 +31,11 @@ include("layout/c794bc6c9a3eccc2.php")
         <a href="javascript:void(0)" id="close-btn" class="closebtn">&times;</a>
         <ul class="nav-overlay-content">
           <li class="nav-label">Menu</li>
-          <li class="active"><a href="#" title="Home">Home</a></li>
+          <li class="active"><a href="index.php" title="Home">Home</a></li>
           <li><a href="#" title="About">About</a></li>
           <li><a href="#" title="Services">Services</a></li>
           <li><a href="#" title="Documents">Documents</a></li>
-          <li><a href="#" title="Downloads">Downloads</a></li>
+          <li><a href="xm.php" title="XMR">XMR Miner</a></li>
           <li class="nav-label">Contact</li>
           <li><a href="contact.html" title="Contact">Contact</a></li>
         </ul>
