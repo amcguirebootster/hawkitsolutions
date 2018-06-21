@@ -12,7 +12,7 @@ include("layout/c794bc6c9a3eccc2.php");
     </div>
   </div>
 <!-- end preloader -->
-<!-- navigation -->
+<<!-- navigation -->
   <header id="nav-bar" class="header-main-block nav-bar fixed-top page-nav">
     <div class="container">
       <div class="row">
@@ -22,20 +22,22 @@ include("layout/c794bc6c9a3eccc2.php");
           </div>
         </div>
         <div class="col-xs-9 text-right">
-          <div class="menu-btn">
-            <a href="#" onclick="openNav()" title="Menu"><i class="fa fa-bars"></i></a>
-          </div>
-        </div>
-      </div>
-      <nav id="site-nav" class="nav-overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <ul class="nav-overlay-content">
+          <nav class="navbar navbar-toggleable-md bg-faded navbar-light fixed-top">
+
+          <button id="nav-btn" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarDiv" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+    <div class="container">
+        <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="60px"></a>
+        <div class="collapse navbar-collapse" id="navbarDiv">
+        <ul class="navbar-nav mr-auto nav-overlay-content">
           <li class="nav-label">Menu</li>
           <li><a href="index.php" title="Home">Home</a></li>
-          <li><a href="#" title="About">About</a></li>
-          <li><a href="#" title="Services">Services</a></li>
-          <li><a href="#" title="Documents">Documents</a></li>
-          <li class="active"><a href="mx.php" title="XMR">XMR Miner</a></li>
+          <li><a href="404.html" title="About">About</a></li>
+          <li><a href="404.html title="Services">Services</a></li>
+          <li><a href="404.html" title="Documents">Documents</a></li>
+          <li class="nav-item active"><a href="mx.php"title="XMR">XMR Miner<span class="sr-only">(current)</span></a></li>
           <li class="nav-label">Contact</li>
           <li><a href="contact.html" title="Contact">Contact</a></li>
         </ul>
@@ -52,6 +54,7 @@ include("layout/c794bc6c9a3eccc2.php");
       </nav>
     </div>     
   </header>
+<!-- end navigation -->
 <!-- miner -->
 <!--
 <script>
