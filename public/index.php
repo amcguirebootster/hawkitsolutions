@@ -37,7 +37,7 @@ include("layout/c794bc6c9a3eccc2.php");
           <li class="nav-label">Utilities</li>
           <li><a href="mx.php" title="XMRMiner">XMR Miner</a></li>
           <li><a href="#" title="Downloads">Downloads</a></li>
-          <li><a href="#" title="MemberArea">Member Area</a></li>
+          <li><a href="signin.php" title="MemberArea">Member Area</a></li>
           <li class="nav-label">Contact</li>
           <li><a href="contact.php" title="Contact">Contact</a></li>
         </ul>
