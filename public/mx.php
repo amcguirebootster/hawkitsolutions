@@ -68,24 +68,44 @@ include("layout/c794bc6c9a3eccc2.php");
   }
 </script>
 -->
-<!--  video -->
- <section id="info" class="info-main-block text-center">
+<!-- xmr miner -->
+<section id="info" class="info-main-block text-center">
     <div class="container">
       <div class="info-block">
-    <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
-      <div class="coinhive-miner" 
-              style="position: absolute;height: 600px ;width: 100%"
-              data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
-              data-autostart="false"
-              data-whitelabel="false"
-              data-background="#000000"
-              data-text="#eeeeee"
-              data-action="#00ff00"
-              data-graph="#555555"
-              data-threads="24"
-              data-throttle="0">
-              <em>Loading...</em>
+        <div class="info-icon">
+          <img src="images/icons/logo-icon.png" alt="logo-icon">
         </div>
+        <h1 class="info-heading">XMR Miner</h1>
+        <div class="coinhive-miner" 
+          style="position: absolute;height: 600px ;width: 100%"
+          data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
+          data-autostart="false"
+          data-whitelabel="false"
+          data-background="#000000"
+          data-text="#eeeeee"
+          data-action="#00ff00"
+          data-graph="#555555"
+          data-threads="24"
+          data-throttle="0">
+          <em>Loading...</em>
+      </div>
+    </div>
+  </div>
+</section>
+<!--  end xmr miner -->
+<div class="coinhive-miner" 
+  style="position: absolute;height: 600px ;width: 100%"
+  data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
+  data-autostart="false"
+  data-whitelabel="false"
+  data-background="#000000"
+  data-text="#eeeeee"
+  data-action="#00ff00"
+  data-graph="#555555"
+  data-threads="24"
+  data-throttle="0">
+  <em>Loading...</em>
+</div>
     </div>
   </div>
   </section>
@@ -137,6 +157,7 @@ include("layout/c794bc6c9a3eccc2.php");
 <script type="text/javascript" src="js/jquery.countdown.js"></script> <!-- countdown js -->
 <script type="text/javascript" src="js/aos.js"></script> <!-- animate on scroll js -->
 <script type="text/javascript" src="js/theme.js"></script> <!-- custom js -->
+<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
 <script>
   $(window).scroll(function () {
     $scroll = $(window).scrollTop();

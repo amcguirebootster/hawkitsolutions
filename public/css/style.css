@@ -1998,43 +1998,43 @@ button {
   padding-top: 30%;
 }
 
-.mx-main-block {
+/* XMR Miner */
+mx-main-block {
   position: relative;
-  padding-bottom: 285px;
+  padding: 20px 0 20px;
   background-color: #1C1C1C;
 }
 .mx-main-block .container {
   position: relative;
 }
 
-.mx-block {
+.mx-heading {
+  position: relative;
+  color: #B0976D;
+  font-family: "Lora", serif;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+}
+
+.mx-icon {
   position: absolute;
-  z-index: 111;
-  top: -287px;
+  top: -2px;
   right: 0;
   left: 0;
   margin: 0 auto;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
-
-.mx-item {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.mx-device {
-  position: relative;
-}
-
-.mx-device .overlay-bg {
-  width: 98%;
-  height: 96%;
-  background-color: #E60000;
-  mix-blend-mode: multiply;
-  top: 50%;
-  right: 0;
-  left: 0;
-  margin: 0 auto;
-  transform: translateY(-50%);
+  
+@media (max-width: 767px) {
+  .mx-icon {
+    top: -6px;
+  }
+  .mx-heading {
+    font-size: 25px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
