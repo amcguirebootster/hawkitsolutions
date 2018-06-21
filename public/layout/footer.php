@@ -7,7 +7,7 @@
             <div class="footer-logo">
               <img src="images/icons/logo-icon.png" alt="logo-icon">
             </div>
-            <div class="footer-logo-text">&copy; SecData/SecInfo 2018</div>
+            <div class="footer-logo-text">&copy; Hawk IT Solutions 2018</div>
           </div>
         </div>
         <div class="col-lg-6 col-md-8 ml-md-auto">
@@ -22,13 +22,13 @@
               </ul>
             </div>
             <div class="footer-text">
-              <p>SecData and SecInfo is an entity focused on providing the upmost essentials for security, server administration, DevOps, DevSecOps and IT training</p>
+              <p>Hawk IT Solutions is an entity focused on providing the upmost essentials for security, server administration, DevOps, DevSecOps and IT training</p>
             </div>
             <div class="copyright-text">
-              <p>© 2018 All Rights Reserved by SecData</p>
+              <p>© 2018 All Rights Reserved by Hawk IT Solutions</p>
             </div>
             <div class="copyright-icon">
-              <img src="images/icons/mc-icon.png" alt="Media City Icon">
+              <img src="images/icons/mc-icon.png" alt="HawkITSolutions">
             </div>
           </div>
         </div>
