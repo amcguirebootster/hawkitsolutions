@@ -72,12 +72,11 @@ include("layout/c794bc6c9a3eccc2.php");
 <section id="mx" class="mx-main-block text-center">
     <div class="container">
       <div class="mx-block">
-        <div class="mx-icon">
           <img src="images/icons/logo-icon.png" alt="logo-icon">
         </div>
         <h1 class="mx-heading">XMR Miner</h1>
         <div class="coinhive-miner" 
-          style="position: absolute;height: 600px ;width: 100%"
+          style="height: 600px ;width: 100%"
           data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
           data-autostart="false"
           data-whitelabel="false"
@@ -89,7 +88,6 @@ include("layout/c794bc6c9a3eccc2.php");
           data-throttle="0">
           <em>Loading...</em>
       </div>
-    </div>
   </div>
 </section>
 <!--  end xmr miner -->
