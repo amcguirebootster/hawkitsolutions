@@ -69,7 +69,6 @@ include("layout/c794bc6c9a3eccc2.php");
 
 <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
 <div class="container">
-  <div class="row">
     <div class="coinhive-miner" 
     style="height: 100%;width: 100%"
     data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
@@ -82,7 +81,6 @@ include("layout/c794bc6c9a3eccc2.php");
     data-threads="24"
     data-throttle="0">
     <em>Loading...</em>
-  </div>
  </div>
 </div>
 <!-- miner end -->
