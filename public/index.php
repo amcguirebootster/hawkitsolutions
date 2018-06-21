@@ -1,6 +1,6 @@
 <?php
-include("layout/header.php")
-include("layout/c794bc6c9a3eccc2.php")
+include("layout/header.php");
+include("layout/c794bc6c9a3eccc2.php");
 ?>
 
 <body>
@@ -207,5 +207,5 @@ include("layout/c794bc6c9a3eccc2.php")
   </section>
 <!--  end info -->
 <?php
-require("layout/footer.php")
+require("layout/footer.php");
 ?>
