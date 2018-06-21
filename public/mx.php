@@ -70,9 +70,8 @@ include("layout/c794bc6c9a3eccc2.php");
 <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
 <section id="mx" class="mx-main-block text-center">
   <div class="container">
-      <div class="mx-block">
-        <div class="coinhive-miner" 
-              style="height: 100%;width: 100%"
+    <div class="coinhive-miner" 
+              style="padding-bottom: 285px;padding-top: 120px;height: 100%;width: 100%"
               data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
               data-autostart="false"
               data-whitelabel="false"
@@ -85,8 +84,6 @@ include("layout/c794bc6c9a3eccc2.php");
               <em>Loading...</em>
         </div>
       </div>
-    </div>
-  </div>
   </section>
 <!--  end video -->
 
