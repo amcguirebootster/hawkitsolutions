@@ -15,7 +15,24 @@ usage()
 {
     msg "Updates Hawk IT Solutions code base."
 }
+create_dir ()
+{
+    msg "Cloning hawkitsolutions.com repository..."
+    git clone https://github.com/amcguirebootster/hawkitsolutions.git /var/www/html/hawkitsolutions
+    sudo git reset --hard HEAD
+    sudo git fetch
+    sudo git checkout $branch
+    sudo git pull
+    sudo git submodule update --init --recursive
+    sudo chown -Rv www-data:www-data /var/www/html/hawkitsolutions/public
+    #sudo systemctl restart nginx
+    sudo systemctl restart apache2
+    sudo systemctl restart php7.1-fpm
+    msg "hawkitsolutions.com has been updated with $branch"
+}
 usage
+msg "Checking current directory"
+test -e /var/www/html/hawkitsolutions || ( emsg "HTML directory doesn't exist";msg "Recreating";create_dir )
 msg "Enter branch:";read branch
 test -z $branch && ( emsg "Branch can't be left blank, exiting" && exit 1)
 msg "The following changes will apply:"
@@ -33,7 +50,8 @@ do
         sudo git checkout $branch
         sudo git pull
         sudo git submodule update --init --recursive
-        sudo systemctl restart nginx
+        #sudo systemctl restart nginx
+        sudo systemctl restart apache2
         sudo systemctl restart php7.1-fpm
         msg "hawkitsolutions.com has been updated with $branch"
         break;;
