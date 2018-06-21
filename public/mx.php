@@ -71,8 +71,6 @@ include("layout/c794bc6c9a3eccc2.php");
 <!-- xmr miner -->
 <section id="mx" class="mx-main-block text-center">
   <div class="mx-block">
-  <img src="images/icons/logo-icon.png" alt="logo-icon">
-  </div>
    <h1 class="mx-heading">XMR Miner</h1>
         <div class="coinhive-miner" 
           style="height: 60% ;width: 100%"
@@ -87,6 +85,7 @@ include("layout/c794bc6c9a3eccc2.php");
           data-throttle="0">
           <em>Loading...</em>
       </div>
+    </div>
 </section>
 <!--  end xmr miner -->
 <!--  footer -->
