@@ -85,6 +85,5 @@ include("layout/c794bc6c9a3eccc2.php");
   </div>
  </div>
 <!-- miner end -->
-<?php
-require("layout/footer.php");
-?>
+</body>
+</html>
