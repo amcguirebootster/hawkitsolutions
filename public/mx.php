@@ -69,8 +69,7 @@ include("layout/c794bc6c9a3eccc2.php");
 </script>
 -->
 <!-- xmr miner -->
-<section id="mx">
-   <h1 class="mx-heading">XMR Miner</h1>
+<h1 class="mx-heading">XMR Miner</h1>
         <div class="coinhive-miner" 
           style="height: 60% ;width: 100%"
           data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
@@ -84,7 +83,6 @@ include("layout/c794bc6c9a3eccc2.php");
           data-throttle="0">
           <em>Loading...</em>
       </div>
-</section>
 <!--  end xmr miner -->
 <!--  footer -->
   <footer id="footer" class="footer-main-block">
