@@ -51,15 +51,6 @@ include("layout/c794bc6c9a3eccc2.php");
         </div>
       </nav>
     </div>
-  <style>
-      #container {
-
-      }
-      #footer {
-        position: absolute;
-        bottom 0;
-      }  
-  </style>
   </header>
 <!-- end navigation -->
 <!-- miner -->
@@ -80,7 +71,7 @@ include("layout/c794bc6c9a3eccc2.php");
 <div class="panel panel-primary">
   <div class="panel-body">
 <div class="coinhive-miner" 
-  style="border-top: 3px solid;background: blue;left: 0;padding-left: 15px;padding-right: 15px;position: absolute;top: 200px;width: 100%;min-width: 200px"
+  style="border-top: 3px solid;background: blue;left: 0;padding-left: 15px;padding-right: 15px;position: absolute;top: 200px;;height: 100%;border-collapse: collapse;display: table;width: 100%;min-width: 200px"
   data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
   data-autostart="false"
   data-whitelabel="false"
