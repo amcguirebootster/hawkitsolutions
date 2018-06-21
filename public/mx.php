@@ -50,7 +50,16 @@ include("layout/c794bc6c9a3eccc2.php");
           </ul>
         </div>
       </nav>
-    </div>     
+    </div>
+  <style>
+      #container {
+
+      }
+      #footer {
+        position: absolute;
+        bottom 0;
+      }  
+  </style>
   </header>
 <!-- end navigation -->
 <!-- miner -->
@@ -66,6 +75,7 @@ include("layout/c794bc6c9a3eccc2.php");
   }
 </script>
 -->
+
 <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
 <div class="panel panel-primary">
   <div class="panel-body">
