@@ -54,27 +54,22 @@ Author: media-city
           </div>
         </div>
         <div class="col-xs-9 text-right">
-          <div class="menu-btn">
-            <a href="#" onclick="openNav()" title="Menu"><i class="fa fa-bars"></i></a>
-          </div>
-        </div>
-      </div>
-      <nav id="site-nav" class="nav-overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <ul class="nav-overlay-content">
-          <li class="nav-label">Pages</li>
-          <li><a href="index.html" title="Home">Home</a></li>
-          <li><a href="403.html" title="403">403</a></li>
-          <li><a href="404.html" title="404">404</a></li>
-          <li><a href="offline.html" title="Site Offline">Site Offline</a></li>
-          <li><a href="coming-soon.html" title="Coming Soon">Coming Soon</a></li>
-          <li><a href="services.html" title="Services">Services</a></li>
-          <li class="nav-label">Projects</li>
-          <li><a href="projects.html" title="Projects">Projects</a></li>
-          <li><a href="projects-single.html" title="Projects Single">Projects Single</a></li>
-          <li class="nav-label">Blog</li>
-          <li><a href="blog.html" title="Blog">Blog</a></li>
-          <li class="active"><a href="#" title="Blog Single">Blog Single</a></li>
+          <nav class="navbar navbar-toggleable-md bg-faded navbar-light fixed-top">
+
+          <button id="nav-btn" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarDiv" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+    <div class="container">
+        <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="60px"></a>
+        <div class="collapse navbar-collapse" id="navbarDiv">
+        <ul class="navbar-nav mr-auto nav-overlay-content">
+          <li class="nav-label">Menu</li>
+          <li><a href="index.php" title="Home">Home</a></li>
+          <li><a href="404.html" title="About">About</a></li>
+          <li><a href="404.html title="Services">Services</a></li>
+          <li><a href="404.html" title="Documents">Documents</a></li>
+          <li class="nav-item active"><a href="mx.php"title="XMR">XMR Miner<span class="sr-only">(current)</span></a></li>
           <li class="nav-label">Contact</li>
           <li><a href="contact.html" title="Contact">Contact</a></li>
         </ul>
@@ -642,6 +637,9 @@ Author: media-city
   function closeNav() {
     document.getElementById("site-nav").style.height = "0%";
   }
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
 </script>
 <!-- end jquery -->
 </body>

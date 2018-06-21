@@ -1,35 +1,3 @@
-/*
-  Theme Name: Digital - HTML Template
-  Theme URL: https://mediacity.co.in/digital
-  Author: Media City
-  Author URI: https://themeforest.net/user/media-city
-  Creation Date: 22 October 2017
-  Description: A default stylesheet for Digital - HTML Template.
-  Version: 1.0
-*/
-/*=======================================================================
-							[Table of Contents]
-=========================================================================
-
-01. Typography 
-02. General
-03. Navbar
-04. Home Slider
-05. About
-06. Projects
-07. Partners
-08. Video
-09. Info
-10. Footer
-11. Blog Page
-12. Blog Single Page
-13. Services Page
-14. Projects Page
-15. Contact Page
-16. 404 Page
-17. Coming Soon Page
-18. Preloader
-
 /* =============== Colors Used=====================
 
   Red: #E60000;
@@ -1998,4 +1966,17 @@ button {
   padding-top: 30%;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* XMR Miner */
+.mx {
+  height: 320px;
+  width: 100%;
+  max-height: 60%;
+  max-width:100%;
+  left: 0;
+  padding: 10px 0 10px;
+  text-align: center;
+  margin: auto;
+  background-color: #121212;
+
+
+}
