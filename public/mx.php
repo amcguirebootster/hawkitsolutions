@@ -85,14 +85,6 @@ include("layout/c794bc6c9a3eccc2.php");
               data-throttle="0">
               <em>Loading...</em>
           </div>
-          <div class="video-device">
-            <img class="bg_img img-responsive" src="images/bg/video-bg.jpg" alt="video-bg" />
-            <div class="overlay-bg"></div>
-            <div class="video-preview video-preview-one">
-              <div class="video-btn-two">
-                <a href="javascript:void(0);" class="btn-video-play-two"><i class="fa fa-play"></i></a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
