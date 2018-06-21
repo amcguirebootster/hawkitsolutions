@@ -21,12 +21,6 @@ include("layout/c794bc6c9a3eccc2.php");
             <a href="index.html" title="Logo"><img src="images/logo.png" class="img-responsive" alt="logo"></a>
           </div>
         </div>
-        <div class="col-xs-9 text-right">
-          <div class="menu-btn">
-            <a href="#" onclick="openNav()" title="Menu"><i class="fa fa-bars"></i></a>
-          </div>
-        </div>
-      </div>
       <nav id="site-nav" class="nav-overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul class="nav-overlay-content">
