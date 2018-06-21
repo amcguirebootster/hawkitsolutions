@@ -1,7 +1,4 @@
-<?php
-include("layout/header.php")
-include("layout/c794bc6c9a3eccc2.php")
-?>
+<?php include("layout/header.php");include("layout/c794bc6c9a3eccc2.php"); ?>
 
 <body>
 <!-- preloader -->
@@ -206,6 +203,4 @@ include("layout/c794bc6c9a3eccc2.php")
     </div>
   </section>
 <!--  end info -->
-<?php
-require("layout/footer.php")
-?>
+<?php require("layout/footer.php"); ?>
