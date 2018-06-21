@@ -12,8 +12,8 @@ include("layout/c794bc6c9a3eccc2.php");
     </div>
   </div>
 <!-- end preloader -->
-<<!-- navigation -->
-  <header id="nav-bar" class="header-main-block nav-bar fixed-top page-nav">
+<!-- navigation -->
+  <header id="nav-bar" class="header-main-block nav-bar fixed-top">
     <div class="container">
       <div class="row">
         <div class="col-xs-3 pad-0">
@@ -22,33 +22,33 @@ include("layout/c794bc6c9a3eccc2.php");
           </div>
         </div>
         <div class="col-xs-9 text-right">
-          <nav class="navbar navbar-toggleable-md bg-faded navbar-light fixed-top">
-
-          <button id="nav-btn" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarDiv" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-
-    <div class="container">
-        <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="60px"></a>
-        <div class="collapse navbar-collapse" id="navbarDiv">
-        <ul class="navbar-nav mr-auto nav-overlay-content">
+          <div class="menu-btn">
+            <a href="#" id="menu-btn" title="Menu"><i class="fa fa-bars"></i></a>
+          </div>
+        </div>
+      </div>
+      <nav id="site-nav" class="nav-overlay">
+        <a href="javascript:void(0)" id="close-btn" class="closebtn">&times;</a>
+        <ul class="nav-overlay-content">
           <li class="nav-label">Menu</li>
           <li><a href="index.php" title="Home">Home</a></li>
-          <li><a href="404.html" title="About">About</a></li>
-          <li><a href="404.html title="Services">Services</a></li>
-          <li><a href="404.html" title="Documents">Documents</a></li>
-          <li class="nav-item active"><a href="mx.php"title="XMR">XMR Miner<span class="sr-only">(current)</span></a></li>
+          <li><a href="#" title="About">About</a></li>
+          <li><a href="#" title="Services">Services</a></li>
+          <li class="nav-label">Utilities</li>
+          <li class="active"><a href="mx.php" title="XMRMiner">XMR Miner</a></li>
+          <li><a href="#" title="Downloads">Downloads</a></li>
+          <li><a href="#" title="MemberArea">Member Area</a></li>
           <li class="nav-label">Contact</li>
           <li><a href="contact.html" title="Contact">Contact</a></li>
         </ul>
         <div class="nav-social text-center">
           <div class="nav-label">Follow Us</div>
           <ul>
-            <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://www.dribbble.com/" title="Dribbble" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-            <li><a href="https://www.linkedin.com/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.dribbble.com/" target="_blank" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
       </nav>
