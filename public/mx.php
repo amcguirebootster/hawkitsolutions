@@ -68,21 +68,30 @@ include("layout/c794bc6c9a3eccc2.php");
 -->
 
 <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
-<div class="container">
-    <div class="coinhive-miner" 
-    style="height: 100%;width: 100%"
-    data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
-    data-autostart="false"
-    data-whitelabel="false"
-    data-background="#000000"
-    data-text="#eeeeee"
-    data-action="#00ff00"
-    data-graph="#555555"
-    data-threads="24"
-    data-throttle="0">
-    <em>Loading...</em>
- </div>
-</div>
+<section id="featured-post" class="featured-post-main-block">
+    <div class="container-fluid">
+      <div class="featured-post-main blog-post-single">
+        <div class="row">
+          <div class="post-single-img">        
+            <div class="coinhive-miner" 
+              style="height: 100%;width: 100%"
+              data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
+              data-autostart="false"
+              data-whitelabel="false"
+              data-background="#000000"
+              data-text="#eeeeee"
+              data-action="#00ff00"
+              data-graph="#555555"
+              data-threads="24"
+              data-throttle="0">
+              <em>Loading...</em>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="mr-lg-auto"></div>
+      </div>
+  </section>
 <!-- miner end -->
 <!--  footer -->
   <footer id="footer" class="footer-main-block">
