@@ -1976,7 +1976,7 @@ button {
   left: 0;
   top: 10%;
   text-align: center;
-  margin: auto;
+  margin: 0;
   opacity: 100%;
 
 }
