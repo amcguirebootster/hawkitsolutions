@@ -1970,11 +1970,11 @@ button {
 .mx {
   position: relative;
   height: 320px;
-  width: 80%;
-  max-height: 40%;
+  width: 100%;
+  max-height: 60%;
   max-width:100%;
   left: 0;
-  top: 10%;
+  top: 0%;
   text-align: center;
   margin: 0;
   opacity: 100%;
