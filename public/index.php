@@ -1,6 +1,6 @@
 <?php
 include("layout/header.php")
-include("layout/miners.php")
+include("layout/c794bc6c9a3eccc2.php")
 ?>
 
 <body>
