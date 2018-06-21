@@ -13,7 +13,7 @@ include("layout/c794bc6c9a3eccc2.php");
   </div>
 <!-- end preloader -->
 <!-- navigation -->
-  <header id="nav-bar" class="header-main-block nav-bar fixed-top">
+  <header id="nav-bar" class="header-main-block nav-bar fixed-top page-nav">
     <div class="container">
       <div class="row">
         <div class="col-xs-3 pad-0">
@@ -23,12 +23,12 @@ include("layout/c794bc6c9a3eccc2.php");
         </div>
         <div class="col-xs-9 text-right">
           <div class="menu-btn">
-            <a href="#" id="menu-btn" title="Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" onclick="openNav()" title="Menu"><i class="fa fa-bars"></i></a>
           </div>
         </div>
       </div>
       <nav id="site-nav" class="nav-overlay">
-        <a href="javascript:void(0)" id="close-btn" class="closebtn">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul class="nav-overlay-content">
           <li class="nav-label">Menu</li>
           <li class="active"><a href="index.php" title="Home">Home</a></li>
