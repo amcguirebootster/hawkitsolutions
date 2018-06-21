@@ -70,9 +70,7 @@ include("layout/c794bc6c9a3eccc2.php");
 -->
 <!-- xmr miner -->
 <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
-<section id="mx">
-<div class="container"> 
-  <div class="coinhive-miner" 
+  <div id="mx" class="coinhive-miner" 
   data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
   data-autostart="false"
   data-whitelabel="false"
