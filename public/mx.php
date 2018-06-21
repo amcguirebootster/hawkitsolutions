@@ -69,20 +69,22 @@ include("layout/c794bc6c9a3eccc2.php");
 </script>
 -->
 <!-- xmr miner -->
-<h1 class="mx-heading">XMR Miner</h1>
-        <div class="coinhive-miner" 
-          style="height: 60% ;width: 100%"
-          data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
-          data-autostart="false"
-          data-whitelabel="false"
-          data-background="#000000"
-          data-text="#eeeeee"
-          data-action="#00ff00"
-          data-graph="#555555"
-          data-threads="24"
-          data-throttle="0">
-          <em>Loading...</em>
-      </div>
+<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
+<section id="mx">
+<div class="container coinhive-miner" 
+  style="width: 100%; height: 310px"
+  data-key="YOUR_SITE_KEY"
+  data-autostart="true"
+  data-whitelabel="false"
+  data-background="#000000"
+  data-text="#eeeeee"
+  data-action="#00ff00"
+  data-graph="#555555"
+  data-threads="4"
+  data-throttle="0.1">
+  <em>Loading...</em>
+</div>
+</section>
 <!--  end xmr miner -->
 <!--  footer -->
   <footer id="footer" class="footer-main-block">

@@ -1,35 +1,3 @@
-/*
-  Theme Name: Digital - HTML Template
-  Theme URL: https://mediacity.co.in/digital
-  Author: Media City
-  Author URI: https://themeforest.net/user/media-city
-  Creation Date: 22 October 2017
-  Description: A default stylesheet for Digital - HTML Template.
-  Version: 1.0
-*/
-/*=======================================================================
-							[Table of Contents]
-=========================================================================
-
-01. Typography 
-02. General
-03. Navbar
-04. Home Slider
-05. About
-06. Projects
-07. Partners
-08. Video
-09. Info
-10. Footer
-11. Blog Page
-12. Blog Single Page
-13. Services Page
-14. Projects Page
-15. Contact Page
-16. 404 Page
-17. Coming Soon Page
-18. Preloader
-
 /* =============== Colors Used=====================
 
   Red: #E60000;
@@ -1999,42 +1967,20 @@ button {
 }
 
 /* XMR Miner */
-mx-main-block {
+.mx {
   position: relative;
-  display: inline-block;
-/*  padding: 2px 0 2px; */
-  background-color: #A3A3A3; /* #A3A3A3 */
-}
-.mx-main-block .container {
-  position: relative;
-}
-
-.mx-heading {
-  position: relative;
-  font-family: "Lora", serif;
-  font-weight: 240;
-  letter-spacing: 2.4px;
-}
-
-.mx-icon {
-  position: absolute;
-  top: -2px;
-  right: 0;
+  height: 320px;
+  width: 80%;
+  max-height: 40%;
+  max-width:100%;
   left: 0;
-  margin: 0 auto;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
+  top: 10%;
+  text-align: center;
+  margin: auto;
+  border: 1px solid black;
+  opacity: 0.3;
+
 }
-  
-@media (max-width: 767px) {
-  .mx-icon {
-    top: -6px;
-  }
-  .mx-heading {
-    font-size: 25px;
-  }
+.mx .container {
+  position: relative;
 }
-/*# sourceMappingURL=style.css.map */
