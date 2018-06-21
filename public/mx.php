@@ -89,11 +89,6 @@ include("layout/c794bc6c9a3eccc2.php");
   <footer id="footer" class="footer-main-block">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-3">
-          <div class="footer-logo-block">
-            <div class="footer-logo">
-              <img src="images/icons/logo-icon.png" alt="logo-icon">
-            </div>
             <div class="footer-logo-text">&copy; Hawk IT Solutions 2018</div>
           </div>
         </div>
