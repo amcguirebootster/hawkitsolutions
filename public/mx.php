@@ -68,13 +68,10 @@ include("layout/c794bc6c9a3eccc2.php");
 -->
 
 <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
-<!--  footer -->
-  <footer id="footer" class="footer-main-block">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-3">
-          <div class="coinhive-miner" 
-    style="position: absolute;top: 200px;height: 100%;border-collapse: collapse;display: table;width: 100%;min-width: 200px"
+<div class="container">
+  <div class="row">
+    <div class="coinhive-miner" 
+    style="position: relative;height: 100%;width: 100%"
     data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
     data-autostart="false"
     data-whitelabel="false"
@@ -87,7 +84,13 @@ include("layout/c794bc6c9a3eccc2.php");
     <em>Loading...</em>
   </div>
  </div>
+</div>
 <!-- miner end -->
+<!--  footer -->
+  <footer id="footer" class="footer-main-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3">
           <div class="footer-logo-block">
             <div class="footer-logo">
               <img src="images/icons/logo-icon.png" alt="logo-icon">
