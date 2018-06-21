@@ -54,6 +54,7 @@ include("layout/c794bc6c9a3eccc2.php");
   </header>
 <!-- end navigation -->
 <!-- miner -->
+<!--
 <script>
   var onCoinHiveSimpleUIReady = function() {
     CoinHive.Miner.on('authed', function(params) {
@@ -64,10 +65,11 @@ include("layout/c794bc6c9a3eccc2.php");
     });
   }
 </script>
+-->
 <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
 <div class="panel panel-primary">
   <div class="panel-body">
-<div class="mw-100 coinhive-miner" 
+<div class="coinhive-miner" 
   style="position: relative; margin: auto;max-width: 100%;min-width: 200px; height: 310px"
   data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
   data-autostart="true"
