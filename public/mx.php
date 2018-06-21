@@ -71,7 +71,7 @@ include("layout/c794bc6c9a3eccc2.php");
 <section id="mx" class="mx-main-block text-center">
   <div class="container">
     <div class="coinhive-miner" 
-              style="padding-bottom: 285px;padding-top: 120px;height: 100%;width: 100%"
+              style="padding-bottom: 2px;padding-top: 10px;height: 100%;width: 100%"
               data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
               data-autostart="false"
               data-whitelabel="false"
