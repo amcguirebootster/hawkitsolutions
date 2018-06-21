@@ -1,5 +1,5 @@
 <?php 
-$to = 'info@yourdomain.com'; // Put in your email address here
+$to = 'admin@hawkitsolutions.com'; // Put in your email address here
 $subject  = "Contact Us Form"; // The default subject. Will appear by default in all messages. Change this if you want.
 
 // User info (DO NOT EDIT!)
