@@ -69,7 +69,7 @@ include("layout/c794bc6c9a3eccc2.php");
 </script>
 -->
 <!-- xmr miner -->
-<section id="mx" class="mx-main-block text-center">
+<section id="mx">
    <h1 class="mx-heading">XMR Miner</h1>
         <div class="coinhive-miner" 
           style="height: 60% ;width: 100%"
