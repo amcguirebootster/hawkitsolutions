@@ -39,7 +39,7 @@ include("layout/c794bc6c9a3eccc2.php");
           <li><a href="#" title="Downloads">Downloads</a></li>
           <li><a href="#" title="MemberArea">Member Area</a></li>
           <li class="nav-label">Contact</li>
-          <li><a href="contact.html" title="Contact">Contact</a></li>
+          <li><a href="contact.php" title="Contact">Contact</a></li>
         </ul>
         <div class="nav-social text-center">
           <div class="nav-label">Follow Us</div>
