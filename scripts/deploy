@@ -1,0 +1,62 @@
+#!/bin/bash
+function msg ()
+{
+    local _msg="$1"
+    echo -e "\033[1;32m[+]\033[1;36m${_msg}\033[0m"
+    unset _msg
+}
+function emsg ()
+{
+    local _msg="$1"
+    echo -e "\033[1;32m[+]\033[1;36m${_msg}\033[0m"
+    unset _msg
+}
+usage()
+{
+    msg "Updates Hawk IT Solutions code base."
+}
+create_dir ()
+{
+    msg "Cloning hawkitsolutions.com repository..."
+    git clone https://github.com/amcguirebootster/hawkitsolutions.git /var/www/html/hawkitsolutions
+    sudo git reset --hard HEAD
+    sudo git fetch
+    sudo git checkout $branch
+    sudo git pull
+    sudo git submodule update --init --recursive
+    sudo chown -Rv www-data:www-data /var/www/html/hawkitsolutions/public
+    #sudo systemctl restart nginx
+    sudo systemctl restart apache2
+    sudo systemctl restart php7.1-fpm
+    msg "hawkitsolutions.com has been updated with $branch"
+}
+usage
+msg "Checking current directory"
+test -e /var/www/html/hawkitsolutions || ( emsg "HTML directory doesn't exist";msg "Recreating";create_dir )
+msg "Enter branch:";read branch
+test -z $branch && ( emsg "Branch can't be left blank, exiting" && exit 1)
+msg "The following changes will apply:"
+msg "Site: hawkitsolutions.com"
+msg "Branch: $branch"
+msg "- - - - - - - - - - - - - -"
+msg "Are you sure (Y/n):"; read choice
+while true
+do
+    case $choice in
+        [Yy]* ) msg "Updating hawkitsolutions.com with $branch..."
+        cd /var/www/html/hawkitsolutions
+        sudo git reset --hard HEAD
+        sudo git fetch
+        sudo git checkout $branch
+        sudo git pull
+        sudo git submodule update --init --recursive
+        #sudo systemctl restart nginx
+        sudo systemctl restart apache2
+        sudo systemctl restart php7.1-fpm
+        msg "hawkitsolutions.com has been updated with $branch"
+        break;;
+        [Nn]* ) msg "Exiting"
+        exit 0;;
+        * ) emsg "Please answer Yes or No";;
+    esac
+done
