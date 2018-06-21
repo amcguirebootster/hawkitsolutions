@@ -31,28 +31,27 @@ include("layout/c794bc6c9a3eccc2.php");
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul class="nav-overlay-content">
           <li class="nav-label">Menu</li>
-          <li class="active"><a href="index.php" title="Home">Home</a></li>
+          <li><a href="index.php" title="Home">Home</a></li>
           <li><a href="#" title="About">About</a></li>
           <li><a href="#" title="Services">Services</a></li>
           <li><a href="#" title="Documents">Documents</a></li>
-          <li><a href="mx.php" title="XMR">XMR Miner</a></li>
+          <li class="active"><a href="mx.php" title="XMR">XMR Miner</a></li>
           <li class="nav-label">Contact</li>
           <li><a href="contact.html" title="Contact">Contact</a></li>
         </ul>
         <div class="nav-social text-center">
           <div class="nav-label">Follow Us</div>
           <ul>
-            <li><a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://www.dribbble.com/" target="_blank" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
-            <li><a href="https://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.dribbble.com/" title="Dribbble" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="https://www.linkedin.com/" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
       </nav>
-    </div>
+    </div>     
   </header>
-<!-- end navigation -->
 <!-- miner -->
 <!--
 <script>
