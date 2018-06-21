@@ -69,13 +69,13 @@ include("layout/c794bc6c9a3eccc2.php");
 </script>
 -->
 <!-- xmr miner -->
-<section id="info" class="info-main-block text-center">
+<section id="mx" class="mx-main-block text-center">
     <div class="container">
-      <div class="info-block">
-        <div class="info-icon">
+      <div class="mx-block">
+        <div class="mx-icon">
           <img src="images/icons/logo-icon.png" alt="logo-icon">
         </div>
-        <h1 class="info-heading">XMR Miner</h1>
+        <h1 class="mx-heading">XMR Miner</h1>
         <div class="coinhive-miner" 
           style="position: absolute;height: 600px ;width: 100%"
           data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
@@ -93,25 +93,6 @@ include("layout/c794bc6c9a3eccc2.php");
   </div>
 </section>
 <!--  end xmr miner -->
-<div class="coinhive-miner" 
-  style="position: absolute;height: 600px ;width: 100%"
-  data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
-  data-autostart="false"
-  data-whitelabel="false"
-  data-background="#000000"
-  data-text="#eeeeee"
-  data-action="#00ff00"
-  data-graph="#555555"
-  data-threads="24"
-  data-throttle="0">
-  <em>Loading...</em>
-</div>
-    </div>
-  </div>
-  </section>
-<!--  end video -->
-
-<!-- miner end -->
 <!--  footer -->
   <footer id="footer" class="footer-main-block">
     <div class="container">
