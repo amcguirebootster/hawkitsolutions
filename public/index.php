@@ -35,7 +35,7 @@ include("layout/c794bc6c9a3eccc2.php");
           <li><a href="#" title="About">About</a></li>
           <li><a href="#" title="Services">Services</a></li>
           <li><a href="#" title="Documents">Documents</a></li>
-          <li><a href="xm.php" title="XMR">XMR Miner</a></li>
+          <li><a href="mx.php" title="XMR">XMR Miner</a></li>
           <li class="nav-label">Contact</li>
           <li><a href="contact.html" title="Contact">Contact</a></li>
         </ul>
