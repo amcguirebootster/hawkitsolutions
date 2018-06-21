@@ -71,8 +71,7 @@ include("layout/c794bc6c9a3eccc2.php");
 <!--  video -->
  <section id="info" class="info-main-block text-center">
     <div class="container">
-      <div class="info-block" data-aos="zoom-in-down">
-        <div class="info-icon">
+      <div class="info-block">
     <script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
       <div class="coinhive-miner" 
               style="padding-bottom: 0px;padding-top: 0px;height: 100%;width: 100%"
@@ -87,7 +86,6 @@ include("layout/c794bc6c9a3eccc2.php");
               data-throttle="0">
               <em>Loading...</em>
         </div>
-      </div>
     </div>
   </div>
   </section>
